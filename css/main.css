@@ -136,7 +136,7 @@ body{
 }
 
 #content ul li{
-  margin: 30px 0px;
+  margin-top: 30px;
 }
 
 .experienceTitle{
@@ -147,8 +147,19 @@ body{
   float:right;
 }
 
+.experienceTitle .upet {
+  width: 50%;
+  float: left;
+  margin: 0;
+  text-align: left;
+}
+
 .experienceContent{
   text-align: justify;
+}
+
+.experienceContent.upet{
+  margin-top: 35px;
 }
 
 #sidebar{
@@ -180,6 +191,11 @@ body{
 
 .skillList li,.langList li{
   margin: 10px 0px;
+}
+
+.skillList li img{
+  width: 14px;
+  height: 16px;
 }
 
 #icons-section{
