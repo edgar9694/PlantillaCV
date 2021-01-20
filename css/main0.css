@@ -73,20 +73,20 @@ body{
 #contact{
   height: 163px;
   display: grid;
-  grid-column: 2 / 5;
+  grid-column: 2 / 4;
   grid-template-columns: auto auto auto auto;
   align-items: center;
 }
 
-#email{
+#contact ul{
   grid-column: 1 / 3;
-  /* background-color: #AB987A; */
-  text-align: center;
-}
-
-#email ul, #phone p{
+  text-align: left;
   list-style: none;
   width:80%;
+}
+
+#contact ul li{
+  margin: 10px auto;
 }
 
 #address p{
@@ -94,17 +94,29 @@ body{
   margin:0px auto;
 }
 
-#phone{
-  grid-column: 3 / 5;
-  /* background-color:#AB987A; */
-  text-align: center;
+#personalReference{
+  display: grid;
+  grid-column: 4 / 5;
+  align-items: stretch;
 }
-#address{
-  grid-column: 1 / 5;
-  /* background-color: #AB987A; */
-  text-align: center;
+#personalReference ul{
+  margin-top: 0px;
+  grid-column: 1 / 3;
+  text-align: left;
+  list-style: none;
+  width:80%;
+  height: 30px;
+}
 
+#personalReference ul li{
+  margin: 10px auto;
 }
+
+#personalReference ul li.title{
+  text-align: center;
+  border-bottom: 2px solid #000000;
+}
+
 
 #separador{
 
